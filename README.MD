@@ -1,6 +1,8 @@
 DNA Story
 By Sam Neurohack
 www.lapaillasse.org
+sam at lapaillasse dot org
+License information : CC BY
 
 Totally unnecessary tool to translate DNA Letters to ASCII letters :
 
@@ -22,3 +24,13 @@ Usage : DNAstory search in its directory a file call dna.txt, process it and sav
 Of course many codes are available : maybe A is 01 but could be 00 or 11 or 10. Actually 4 encoding possibilities are included. You can modify it by changing the value code: 3 code line. code can have 1, 2, 3 or 4 values.
 
 WARNING : Has it's totally useless DNAstory is pretty straight forward, it will crash if you don't do what is intended.
+
+------------------------------------------------------------------------
+
+Programme inutile permettant de traduire des sequences ADN en ASCII.
+
+- L'ADN possede 4 lettres A,T,C, et G, soit 4 possibilités comme 2  bits (00, 01, 10 et 11).
+
+- Les lettres ASCII sont codees de 0 a 255.
+
+4 lettres ADN contigues forment donc 4 * 2  = 8 bits = 256 possibilités comme le code ASCII. Peut etre que des sequences ADN racontent deja une histoire ? Vous pouvez essayer avec DNA Story.
